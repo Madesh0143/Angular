@@ -1,0 +1,11 @@
+   
+
+   <ul *ngFor="let d of data">
+    <li><strong >Name   :</strong>{{ d.name}}</li>
+    <li><strong >RegNo  :</strong>{{ d.regno}}</li>
+    <li><strong >Age    :</strong>{{ d.age}}</li>
+    <li><strong >Class  :</strong>{{ d.class}}</li>
+    <li><strong >College :</strong>{{ d.college}}</li>
+   </ul>
+
+   <button  type="button" (click)="fileDownload()" class="btn">Click To Download</button>
